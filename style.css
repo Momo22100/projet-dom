@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    font-size: x-large;
+    background-color: chocolate;
+}
+
+.cart {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.liked {
+    color: red;
+}
+
+
+
+
